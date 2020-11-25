@@ -1,0 +1,74 @@
+Сайт : https://www.razer.com/
+Основное разначение сайта - показать товары и предоставить возможность удобного просмотра, выбора и оформления заказа на интересующий товар
+
+1. Найти проводную мышь
+	1) Перейти в раздел products->Mice
+	2) Выбрать All Mice
+	3) в Connectivity выбрать Wired
+	Результат: Будет выбрано 19 моделей проводных машей
+2. Добавить товар в корзину 
+	1) Перейти в раздел products->Mice
+	2) Выбрать All Mice
+	3) Нажать кнопку Add to Cart для мыши Razer DeathAdder V2 Pro
+	4) Нажать view cart
+	Резульат: Значения id="cart-item-counter" будет равно 1 едицице товара
+3. Найти мышь черного цвета
+	1) Перейти в раздел products->Mice
+	2) Выбрать All Mice
+	3) в Color/design выбрать цвет black
+	Результат: будет выбрано 22 модели 
+4. Сортировать клавиатуры по цене
+	1) Перейти в раздел products-> Keyboards
+	2) Выбрать All Keyboards
+	3) выбрать Sort by price(low to hight)
+	Результат: в начале будут самые дешевые товары
+5. Удалить товар из корзины 
+	1) Перейти в раздел products->Mice
+	2) Выбрать All Mice
+	3) Нажать кнопку Add to Cart для мыши Razer DeathAdder V2 Pro
+	4) Нажать view cart
+	5) Нажать кнопку Remove
+	Резульат: Появится сообщение "Yout cart is empty"
+6. Ввести неверный адрес электронной почты при оформлении заказа
+	1) Перейти в раздел products-> Keyboards
+	2) Выбрать All Keyboards
+	3) Нажать кнопку Add to Cart для клафиатуры Razer BlackWidow V3 - Green Switch - US - Black
+	4) Нажать view cart
+	5) Нажать checkout
+	6) В поле email ввести azz.nenmail.ru
+	Результат: сообщение Please enter a valid email address
+7. Добавить несколько разных товаров в корзину 
+	1) Перейти в раздел products-> Keyboards
+	2) Выбрать All Keyboards
+	3) Нажать кнопку Add to Cart для клафиатуры Razer BlackWidow V3 - Green Switch - US - Black
+	4) Перейти в раздел products->Mice
+	5) Выбрать All Mice
+	6) Нажать кнопку Add to Cart для мыши Razer DeathAdder V2 Pro
+	7) Нажать view cart
+	Результат: Значения id="cart-item-counter" будет равно 2 едицице товара
+8. Проверить наличие налога на заказ одной мыши Razer DeathAdder V2 Pro в Калифорнию
+	1) Перейти в раздел products->Mice
+	2) Выбрать All Mice
+	3) Нажать кнопку Add to Cart для мыши Razer DeathAdder V2 Pro
+	4) Нажать view cart
+	5) Нажать checkout
+	6) Заполнить необходимые поля и нажать continue to shipping method
+	Результат: Local Taxes равен 7.80$
+9. Проверить наличие добавления стомости за экспресс доставку 
+	1) Перейти в раздел products->Mice
+	2) Выбрать All Mice
+	3) Нажать кнопку Add to Cart для мыши Razer DeathAdder V2 Pro
+	4) Нажать view cart
+	5) Нажать checkout
+	6) Заполнить необходимые поля и нажать continue to shipping method
+	7) выбрать Express Shipping
+	Результат: Shipping  равно 10$
+10. Сбросить фильтр при поиске мыши
+	1) Перейти в раздел products->Mice
+	2) Выбрать All Mice
+	Результат 33 товара
+	3) выбрать Right-Handed в Form Handed
+	4) выбрать Wired в connectivity 
+	Результат: выбрано 10 товаров
+	5) Сбросить параметры
+	Результат: выбрано 33 товара
